@@ -26,7 +26,7 @@ st.set_page_config(page_title="ChatPDF", layout="wide")
 
 absolute_path = Path.cwd()
 
-cert_path = os.path.join(absolute_path , 'pki-it-root.crt')
+cert_path = os.path.join(absolute_path , '')
 openai.api_type = "azure"
 openai.api_base = ""
 openai.api_version = ""
